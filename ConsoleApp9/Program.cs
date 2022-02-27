@@ -6,9 +6,11 @@ class Program
       
         static (string Name, string LastName, int Age) EnterUser()
         {
-            (string Name, string LastName, int Age) User;
-            (bool HasPet, string[] PetName) Pet;
-            (string[] NumColor, string[] FavColor) Color;
+            (string Name, string LastName, int Age) User; //кортеж инфо о юзере
+            (bool HasPet, string[] PetName) Pet;  // домашняя животинка
+            (string[] NumColor, string[] FavColor) Color; // кортеж цвет 
+            
+            
             Console.WriteLine("Введите имя");
             User.Name = Console.ReadLine();
 
